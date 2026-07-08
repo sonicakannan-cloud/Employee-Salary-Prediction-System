@@ -113,12 +113,6 @@ The following visualizations are generated:
 
 # 📷 Application Screenshots
 
-## 🏠 Home Page
-
-![Home Page](screenshots/home_page.png)
-
----
-
 ## 📝 Registration Form
 
 ![Registration Form](screenshots/registration_form.png)
@@ -128,12 +122,6 @@ The following visualizations are generated:
 ## 💰 Salary Prediction Page
 
 ![Salary Prediction](screenshots/salary_prediction_page.png)
-
----
-
-## 📈 Prediction Result
-
-![Prediction Result](screenshots/prediction_result.png)
 
 ---
 
@@ -173,10 +161,8 @@ Employee-Salary-Prediction-System/
 │   └── 2_Employee_Report.py
 │
 ├── screenshots/
-│   ├── home_page.png
 │   ├── registration_form.png
 │   ├── salary_prediction_page.png
-│   ├── prediction_result.png
 │   ├── employee_report.png
 │   ├── download_report.png
 │   ├── model_performance.png
@@ -210,7 +196,7 @@ Before running the project, ensure you have:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Employee-Salary-Prediction-System.git
+git clone https://github.com/sonicakannan-cloud/Employee-Salary-Prediction-System.git
 ```
 
 ### Navigate to the project folder
