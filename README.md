@@ -2,34 +2,29 @@
 
 ## 📌 Project Overview
 
-The **Employee Salary Prediction System** is a Machine Learning and Streamlit-based web application that predicts an employee's salary based on personal and professional details.
+The **Employee Salary Prediction System** is a Machine Learning-based web application developed using **Python** and **Streamlit** to predict employee salaries based on personal and professional details.
 
-The system uses a **Random Forest Regressor** to estimate salaries using the following features:
+The application enables users to:
 
-- Age
-- Gender
-- Education Level
-- Job Title
-- Years of Experience
+- Register employee details
+- Predict employee salary using Machine Learning
+- View employee report
+- Download employee report
 
-The application provides a user-friendly interface where users can:
-
-- Register their personal details
-- Predict their salary
-- View an employee report
-- Download the employee report
+The project was initially developed using the **Random Forest Classifier** and later enhanced by replacing it with the **Random Forest Regressor**, significantly improving the prediction performance to an **R² Score of 92.67%**.
 
 ---
 
 # 🚀 Features
 
-- Employee Registration
-- Multi-page Streamlit Web Application
-- Salary Prediction using Machine Learning
-- Random Forest Regressor
-- Employee Report Generation
-- Download Employee Report
-- User-friendly Interface
+- 📝 Employee Registration
+- 💰 Salary Prediction using Machine Learning
+- 📋 Employee Report Generation
+- ⬇ Download Employee Report
+- 📊 Exploratory Data Analysis (EDA)
+- 📈 Data Visualization using Matplotlib
+- 🌐 Multi-page Streamlit Web Application
+- 💻 User-friendly Interface
 
 ---
 
@@ -39,6 +34,7 @@ The application provides a user-friendly interface where users can:
 - Streamlit
 - Pandas
 - NumPy
+- Matplotlib
 - Scikit-learn
 - Pickle
 
@@ -46,26 +42,64 @@ The application provides a user-friendly interface where users can:
 
 # 🤖 Machine Learning Model
 
-### Algorithm Used
+## Algorithm Used
 
 - Random Forest Regressor
 
-### Evaluation Metrics
+## Evaluation Metrics
 
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
 - Root Mean Squared Error (RMSE)
 - R² Score
 
-### Model Performance
+## Model Performance
 
-- **R² Score : 92.67%**
+| Metric | Performance |
+|----------|------------|
+| R² Score | **92.67%** |
 
 ---
 
-# 📊 Project Workflow
+# 📊 Data Visualization
 
-## Employee Salary Prediction Model
+A separate **data_visualization.py** file is included to perform Exploratory Data Analysis (EDA) on the employee salary dataset.
+
+The following visualizations are generated:
+
+## 📈 Salary Distribution
+
+![Salary Distribution](screenshots/visualizations/salary_distribution.png)
+
+---
+
+## 👥 Gender Distribution
+
+![Gender Distribution](screenshots/visualizations/gender_distribution.png)
+
+---
+
+## 🎓 Education Level Distribution
+
+![Education Level Distribution](screenshots/visualizations/education_distribution.png)
+
+---
+
+## 💼 Top 10 Job Title Distribution
+
+![Top Job Title Distribution](screenshots/visualizations/top_job_title_distribution.png)
+
+---
+
+## 📊 Salary vs Years of Experience
+
+![Salary vs Experience](screenshots/visualizations/salary_vs_experience.png)
+
+---
+
+# 🔄 Project Workflow
+
+## Employee Salary Prediction Workflow
 
 ![Employee Salary Prediction Workflow](screenshots/workflow/employee_salary_prediction_workflow.png)
 
@@ -73,7 +107,7 @@ The application provides a user-friendly interface where users can:
 
 ## Streamlit Web Application Workflow
 
-![Streamlit Workflow](screenshots/workflow/streamlit_web_application_workflow.png)
+![Streamlit Web Application Workflow](screenshots/workflow/streamlit_web_application_workflow.png)
 
 ---
 
@@ -111,7 +145,7 @@ The application provides a user-friendly interface where users can:
 
 ## ⬇ Download Employee Report
 
-![Download Report](screenshots/download_report.png)
+![Download Employee Report](screenshots/download_report.png)
 
 ---
 
@@ -128,8 +162,9 @@ Employee-Salary-Prediction-System/
 │
 ├── home.py
 ├── salary_model_training.py
-├── Salary_Data.pkl
-├── Salary Data.csv
+├── data_visualization.py
+├── salary_data.csv
+├── salary_model.pkl
 ├── requirements.txt
 ├── README.md
 │
@@ -145,10 +180,28 @@ Employee-Salary-Prediction-System/
 │   ├── employee_report.png
 │   ├── download_report.png
 │   ├── model_performance.png
+│   │
+│   ├── visualizations/
+│   │   ├── salary_distribution.png
+│   │   ├── gender_distribution.png
+│   │   ├── education_distribution.png
+│   │   ├── top_job_title_distribution.png
+│   │   └── salary_vs_experience.png
+│   │
 │   └── workflow/
 │       ├── employee_salary_prediction_workflow.png
 │       └── streamlit_web_application_workflow.png
 ```
+
+---
+
+# 📋 Prerequisites
+
+Before running the project, ensure you have:
+
+- Python 3.10 or later
+- pip
+- Git (optional)
 
 ---
 
@@ -157,22 +210,22 @@ Employee-Salary-Prediction-System/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/sonicakannan-cloud/Employee-Salary-Prediction-System.git
+git clone https://github.com/YOUR_USERNAME/Employee-Salary-Prediction-System.git
 ```
 
-### Move to the project directory
+### Navigate to the project folder
 
 ```bash
 cd Employee-Salary-Prediction-System
 ```
 
-### Install required libraries
+### Install the required libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run the application
+### Run the Streamlit application
 
 ```bash
 streamlit run home.py
@@ -182,36 +235,42 @@ streamlit run home.py
 
 # 🌐 Live Demo
 
-**After deployment, add your Streamlit website link here.**
+After deploying the project using **Streamlit Community Cloud**, update this section with your live application link.
 
 Example:
 
-https://your-app-name.streamlit.app
+```text
+https://employee-salary-prediction.streamlit.app
+```
 
 ---
 
 # 📈 Project Evolution
 
-## ✅ Version 1 (Initial Implementation)
+## 🔹 Version 1 (Initial Implementation)
 
 - Developed the Employee Salary Prediction System.
 - Implemented using **Random Forest Classifier**.
-- **Accuracy : 42.67%**
-- Built the basic salary prediction pipeline.
+- Achieved **42.67% Accuracy**.
+- Built the initial salary prediction pipeline.
 
 ---
 
-## ✅ Version 2 (Enhanced Implementation)
+## 🔹 Version 2 (Enhanced Implementation)
 
-- Upgraded the model to **Random Forest Regressor**.
-- Evaluated using **MAE, MSE, RMSE and R² Score**.
-- **R² Score : 92.67%**
-- Developed a multi-page Streamlit Web Application.
+- Replaced **Random Forest Classifier** with **Random Forest Regressor**.
+- Achieved an **R² Score of 92.67%**.
+- Evaluated the model using **MAE, MSE, RMSE, and R² Score**.
+- Saved the trained model as **salary_model.pkl**.
+- Developed a multi-page Streamlit web application.
 - Added Employee Registration page.
 - Added Salary Prediction page.
-- Added Employee Report generation.
-- Added Download Report functionality.
-- Improved overall project structure and documentation.
+- Added Employee Report page.
+- Added Download Employee Report functionality.
+- Added Exploratory Data Analysis using **data_visualization.py**.
+- Added project workflow diagrams.
+- Added application screenshots.
+- Improved project documentation.
 
 ---
 
@@ -222,7 +281,8 @@ https://your-app-name.streamlit.app
 - Cloud Deployment
 - Interactive Dashboard
 - Comparison of Multiple Machine Learning Models
-- Data Visualization Dashboard
+- Email Report Generation
+- Responsive User Interface
 
 ---
 
@@ -230,9 +290,13 @@ https://your-app-name.streamlit.app
 
 **Sonica Kannan**
 
-B.E. Computer Science and Engineering (Artificial Intelligence & Machine Learning)
-
-Machine Learning & Deep Learning Intern
+B.E. Computer Science and Engineering  
+(Artificial Intelligence & Machine Learning)
 
 Thiagarajar College of Engineering
 
+Machine Learning & Deep Learning Intern
+
+---
+
+⭐ **If you found this project helpful, consider giving it a Star on GitHub!**
