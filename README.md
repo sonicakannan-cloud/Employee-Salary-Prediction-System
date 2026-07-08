@@ -101,13 +101,13 @@ The following visualizations are generated:
 
 ## Employee Salary Prediction Workflow
 
-![Employee Salary Prediction Workflow](screenshot/Workflow/employee_salary_prediction_workflow.png)
+![Employee Salary Prediction Workflow](screenshot/Workflow/employee_salary_prediction_workflow.PNG)
 
 ---
 
 ## Streamlit Web Application Workflow
 
-![Streamlit Web Application Workflow](screenshot/Workflow/streamlit_web_application_workflow.png)
+![Streamlit Web Application Workflow](screenshot/Workflow/streamlit_web_application_workflow.PNG)
 
 ---
 
@@ -127,13 +127,13 @@ The following visualizations are generated:
 
 ## 📋 Employee Report
 
-![Employee Report](screenshot/employee_report.png)
+![Employee Report](screenshot/employee_Report_Page.png)
 
 ---
 
 ## ⬇ Download Employee Report
 
-![Download Employee Report](screenshot/download_report.png)
+![Download Employee Report](screenshot/download_report.pdf)
 
 ---
 
