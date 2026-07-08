@@ -69,31 +69,31 @@ The following visualizations are generated:
 
 ## 📈 Salary Distribution
 
-![Salary Distribution](screenshots/visualizations/salary_distribution.png)
+![Salary Distribution](screenshot/Visualization/salary_distribution.png)
 
 ---
 
 ## 👥 Gender Distribution
 
-![Gender Distribution](screenshots/visualizations/gender_distribution.png)
+![Gender Distribution](screenshot/Visualization/gender_distribution.png)
 
 ---
 
 ## 🎓 Education Level Distribution
 
-![Education Level Distribution](screenshots/visualizations/education_distribution.png)
+![Education Level Distribution](screenshot/Visualization/education_distribution.png)
 
 ---
 
 ## 💼 Top 10 Job Title Distribution
 
-![Top Job Title Distribution](screenshots/visualizations/top_job_title_distribution.png)
+![Top Job Title Distribution](screenshot/Visualization/top_job_title_distribution.png)
 
 ---
 
 ## 📊 Salary vs Years of Experience
 
-![Salary vs Experience](screenshots/visualizations/salary_vs_experience.png)
+![Salary vs Experience](screenshot/Visualization/salary_vs_experience.png)
 
 ---
 
@@ -101,13 +101,13 @@ The following visualizations are generated:
 
 ## Employee Salary Prediction Workflow
 
-![Employee Salary Prediction Workflow](screenshots/workflow/employee_salary_prediction_workflow.png)
+![Employee Salary Prediction Workflow](screenshot/Workflow/employee_salary_prediction_workflow.png)
 
 ---
 
 ## Streamlit Web Application Workflow
 
-![Streamlit Web Application Workflow](screenshots/workflow/streamlit_web_application_workflow.png)
+![Streamlit Web Application Workflow](screenshot/Workflow/streamlit_web_application_workflow.png)
 
 ---
 
@@ -115,31 +115,31 @@ The following visualizations are generated:
 
 ## 📝 Registration Form
 
-![Registration Form](screenshots/registration_form.png)
+![Registration Form](screenshot/registration_form.png)
 
 ---
 
 ## 💰 Salary Prediction Page
 
-![Salary Prediction](screenshots/salary_prediction_page.png)
+![Salary Prediction](screenshot/salary_prediction_page.png)
 
 ---
 
 ## 📋 Employee Report
 
-![Employee Report](screenshots/employee_report.png)
+![Employee Report](screenshot/employee_report.png)
 
 ---
 
 ## ⬇ Download Employee Report
 
-![Download Employee Report](screenshots/download_report.png)
+![Download Employee Report](screenshot/download_report.png)
 
 ---
 
 ## 📊 Model Performance
 
-![Model Performance](screenshots/model_performance.png)
+![Model Performance](screenshot/model_performance.png)
 
 ---
 
@@ -160,14 +160,14 @@ Employee-Salary-Prediction-System/
 │   ├── 1_Salary_Prediction.py
 │   └── 2_Employee_Report.py
 │
-├── screenshots/
+├── screenshot/
 │   ├── registration_form.png
 │   ├── salary_prediction_page.png
 │   ├── employee_report.png
 │   ├── download_report.png
 │   ├── model_performance.png
 │   │
-│   ├── visualizations/
+│   ├── Visualization/
 │   │   ├── salary_distribution.png
 │   │   ├── gender_distribution.png
 │   │   ├── education_distribution.png
