@@ -221,15 +221,19 @@ streamlit run home.py
 
 # 🌐 Live Demo
 
-After deploying the project using **Streamlit Community Cloud**, update this section with your live application link.
+The application is deployed on **Streamlit Community Cloud** and is publicly accessible.
 
-Example:
+🚀 **Try the Live Application:**
 
-```text
-https://employee-salary-prediction.streamlit.app
-```
+👉 https://employee-salary-prediction-system-5z2mbsw4piqweqbquym5we.streamlit.app/
 
----
+The application allows users to:
+
+- Register employee details
+- Predict employee salaries using a Random Forest Regressor
+- View the employee report
+- Download the generated report
+- Explore a simple and interactive web interface
 
 # 📈 Project Evolution
 
