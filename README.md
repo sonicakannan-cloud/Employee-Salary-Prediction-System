@@ -69,31 +69,31 @@ The following visualizations are generated:
 
 ## 📈 Salary Distribution
 
-![Salary Distribution](screenshot/Visualization/salary_distribution.png)
+![Salary Distribution](screenshot/Visulization/salary_distribution.png)
 
 ---
 
 ## 👥 Gender Distribution
 
-![Gender Distribution](screenshot/Visualization/gender_distribution.png)
+![Gender Distribution](screenshot/Visulization/gender_distribution.png)
 
 ---
 
 ## 🎓 Education Level Distribution
 
-![Education Level Distribution](screenshot/Visualization/education_distribution.png)
+![Education Level Distribution](screenshot/Visulization/education_distribution.png)
 
 ---
 
 ## 💼 Top 10 Job Title Distribution
 
-![Top Job Title Distribution](screenshot/Visualization/top_job_title_distribution.png)
+![Top Job Title Distribution](screenshot/Visulization/top_job_title_distribution.png)
 
 ---
 
 ## 📊 Salary vs Years of Experience
 
-![Salary vs Experience](screenshot/Visualization/salary_vs_experience.png)
+![Salary vs Experience](screenshot/Visulization/salary_vs_experience.png)
 
 ---
 
